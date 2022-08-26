@@ -13,5 +13,3 @@ public class GetAllCustomersEndpoint:EndpointWithoutRequest<CustomerResponse>
     await SendAsync(responseNew);
    }
 }
-
-

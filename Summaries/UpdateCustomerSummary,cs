@@ -1,0 +1,10 @@
+public class UpdateCustomerSummary:Summary<UpdateCustomerEndpoint>
+{
+    public UpdateCustomerSummary()
+    {
+        Summary="Summary for update customer";
+        Description="Description for update customer";
+        Response(200, "Update successful");
+        Response(400, "Customer update failed");
+    }
+}

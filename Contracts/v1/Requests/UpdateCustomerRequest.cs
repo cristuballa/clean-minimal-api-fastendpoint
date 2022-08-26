@@ -1,4 +1,4 @@
-public class CustomerResponse
+public class UpdateCustomerRequest
 {
     public Guid Id { get; set; }
     public string? Name { get; set; }

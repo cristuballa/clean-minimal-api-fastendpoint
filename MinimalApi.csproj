@@ -11,6 +11,7 @@
     <PackageReference Include="fastendpoints" Version="5.0.0" />
     <PackageReference Include="fastendpoints.swagger" Version="5.0.0" />
     <PackageReference Include="fluentvalidation" Version="11.2.0" />
+    <PackageReference Include="valueof" Version="2.0.31" />
   </ItemGroup>
 
 </Project>
