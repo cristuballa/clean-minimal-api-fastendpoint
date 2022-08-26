@@ -1,3 +1,4 @@
+namespace MinimalApi.Endpoints;
 [HttpPost("createcustomer"),]
 public class CreateCustomerEndpoint:Endpoint<CustomerRequest,CustomerResponse>
 {
@@ -9,6 +10,6 @@ public class CreateCustomerEndpoint:Endpoint<CustomerRequest,CustomerResponse>
         Name="Customer Name",
         Balance=100,
        };
-       await SendCreatedAtAsync<GetCustomersEndpoint>(new{Id=response.Id},response,generateAbsoluteUrl:true,cancellation:ct);
+       await SendCreatedAtAsync<GetAllCustomersEndpoint>(new{Id=response.Id},response,generateAbsoluteUrl:true,cancellation:ct);
     }
 }

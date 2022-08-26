@@ -1,4 +1,4 @@
-
+namespace MinimalApi.Endpoints;
 [HttpGet("GetAllCustomer"),AllowAnonymous]
 public class GetAllCustomersEndpoint:EndpointWithoutRequest<CustomerResponse>
 {

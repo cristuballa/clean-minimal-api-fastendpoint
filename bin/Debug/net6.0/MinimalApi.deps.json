@@ -9,7 +9,8 @@
       "MinimalApi/1.0.0": {
         "dependencies": {
           "FastEndpoints": "5.0.0",
-          "FastEndpoints.Swagger": "5.0.0"
+          "FastEndpoints.Swagger": "5.0.0",
+          "FluentValidation": "11.2.0"
         },
         "runtime": {
           "MinimalApi.dll": {}

@@ -26,4 +26,8 @@
 # Ignore code-workspaces
 *.code-workspace
 
+
+bin
+obj
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocodea

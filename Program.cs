@@ -1,6 +1,8 @@
 ﻿global using FastEndpoints;
 global using FastEndpoints.Swagger;
 global using Microsoft.AspNetCore.Authorization;
+global using FluentValidation;
+global using  MinimalApi.Endpoints;
 
 var builder= WebApplication.CreateBuilder(args);
     builder.Services.AddFastEndpoints();
